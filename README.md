@@ -40,7 +40,6 @@ npm start
 Issue : 
 The current API does not validate the email input.
 
-Shortcuts / Reasons:
 Applied <input type="email"> in HTML email input to validate the email input when a user click "submit" button.
 It is good to perform another validation in React using Regex but the best way to perform a validation is from the Back-end
 
@@ -52,7 +51,6 @@ It is good to perform another validation in React using Regex but the best way t
 Issue : 
 The current API does not validate the name, phone and postcode input.
 
-Shortcuts / Reasons:
 Validation is neither done on the front-end nor back-end, given time constraint allowed in this task. If I have more time to work on this, I will use regex to check and validate the input (if the input is not empty):
 
 UK phone number regex : https://www.regextester.com/104299
@@ -68,7 +66,6 @@ Issue : This functionality must be enabled in the back-end API
 4. In the current version of app, a user must enter his/her additional information immediately after he/she has successfully subscribed the mailing list. He/she could not come back to the site to provide additional information.
 
 ```
-Shortcuts / Reasons :
 If I am allowed to have more time working on this program, I will perform the following tasks to enable users to provide us with more details:
 
 a) If an error code is displayed because the email had been previously entered, I will show the following to the user:
